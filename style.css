@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right, #e66465, #9198e5);
+  display: grid;
+  place-items: center center;
+}
+
+.container {
+  background-color: black;
+  color: lightgray;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 35px;
+  margin-top: 60px;
+}
+
+.bar {
+  width: 90%;
+  height: 20px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.progress {
+  background-color: red;
+  width: 0%;
+  height: 100%;
+  border-radius: 10px;
+}
